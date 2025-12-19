@@ -86,12 +86,12 @@
         // ==========================================
         // 1. RESOURCES CONFIG Vandiep
         // ==========================================
-        const MUSIC_URL = "./Mễ Ry Chí Mới/audio.mp3";
+        const MUSIC_URL = "./all/audio.mp3";
         let bgMusic = new Audio(MUSIC_URL);
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = ['./Mễ Ry Chí Mới/image1.jpg', './Mễ Ry Chí Mới/image2.jpg', './Mễ Ry Chí Mới/image3.jpg', './Mễ Ry Chí Mới/image4.jpg', './Mễ Ry Chí Mới/image5.jpg'];
+        const photoFiles = ['./all/image1.jpg', './all/image2.jpg', './all/image3.jpg', './all/image4.jpg', './all/image5.jpg'];
         const photoTextures = [];
         photoFiles.forEach((f, i) => photoTextures[i] = loader.load(f));
 
